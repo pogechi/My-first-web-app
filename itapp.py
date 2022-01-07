@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def render_the_map():
-    return render_template('ITA_prefixes.html')
+    return render_template('ITA_suffixes.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
